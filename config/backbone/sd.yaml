@@ -1,0 +1,4 @@
+_target_: backbone.sd_wrapper.StableDiffusionWrapper
+name: "Manojb/stable-diffusion-2-1-base"
+target_layer: "up_blocks.3"
+device: "cuda"

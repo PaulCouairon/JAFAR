@@ -11,6 +11,8 @@ def get_feature(target: str) -> int:
         return 768
     if "vitl" in model_name or "vit_large" in model_name:
         return 1024
+    if "stable-diffusion-2-1" in model_name:
+        return 320
     if model_name == "efficientnet_b4":
         return 128
     if model_name == "maskclip":
